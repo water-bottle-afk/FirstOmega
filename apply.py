@@ -7,5 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1dGFnQcqlB1BwvIiinzOf3T2WWLUFmE78
 """
 
-from printnames import *
-printnamesOmega()
+from printnamesomega import print_names
+
+
+if __name__ == '__main__':
+    print_names()
